@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    
+    <h3>Teste</h3>
+    
+</body>
+
+	<br />
+	<form th:action="@{'/login'}" method="post">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<div class="form-group">
+						<label>Login</label> <input type="text" placeholder="Login"
+							name="login" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>Password</label> <input type="password"
+							placeholder="Password" name="password" class="form-control">
+					</div>
+					<button type="submit" class="btn btn-success">Login</button>
+					<a class="btn btn-info" href="/sign-up">Don't have an account?
+						Sign up!</a>
+				</div>
+			</div>
+		</div>
+	</form>
+
+</html>
